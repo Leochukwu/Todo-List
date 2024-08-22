@@ -18,11 +18,11 @@ export class HeaderComponent {
     },
     {id: 2,
       name: "Add-Todo",
-      link: 'http://localhost:4200/add-todo'
+      link: 'add-todo'
     },
     {id: 3,
       name: "View-Todo",
-      link: 'http://localhost:4200/list'
+      link: 'list'
     },
     {id: 4,
       name: "Contact",
