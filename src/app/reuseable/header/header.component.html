@@ -1,6 +1,6 @@
     <header >
         <li *ngFor="let menu of menu">
-            <a href={{menu.link}}>{{menu.name}}</a>
+            <a routerLink="{{menu.link}}" >{{menu.name}}</a>
         </li>
 
     </header>
