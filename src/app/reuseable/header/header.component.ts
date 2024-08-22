@@ -12,16 +12,21 @@ export class HeaderComponent {
 
   menu: any =[
     {id: 1,
-      name: "Home"
+      name: "Home",
+      link: '#'
+
     },
-    {id: 1,
-      name: "Add-Todo"
+    {id: 2,
+      name: "Add-Todo",
+      link: 'http://localhost:4200/add-todo'
     },
-    {id: 1,
-      name: "View-Todo"
+    {id: 3,
+      name: "View-Todo",
+      link: 'http://localhost:4200/list'
     },
-    {id: 1,
-      name: "Contact"
+    {id: 4,
+      name: "Contact",
+      link: '#'
     },
   ]
 
