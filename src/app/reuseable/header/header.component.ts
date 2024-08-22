@@ -14,7 +14,7 @@ export class HeaderComponent {
   menu: any =[
     {id: 1,
       name: "Home",
-      link: '#'
+      link: ''
 
     },
     {id: 2,
@@ -27,7 +27,7 @@ export class HeaderComponent {
     },
     {id: 4,
       name: "Contact",
-      link: '#'
+      link: ''
     },
   ]
 
