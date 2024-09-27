@@ -51,7 +51,7 @@ button{
 }
 
 button:hover{
-    background-color:  #f8b195; 
+    background-color:  black; 
     color: #70abdf;
 }
 
@@ -61,4 +61,29 @@ button:hover{
 
 .delete{
     background-color: red;
+}
+
+.navigation{
+    display: flex;
+}
+
+.nav-btn{
+    flex: 80%;
+}
+
+.navigation div{
+    width: 40px;
+    font-size: 16px;
+    background: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation-button{
+    flex: 20%;
+    background-color: orange;
+}
+
+.active-page{
+    background-color: green;
 }

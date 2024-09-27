@@ -7,4 +7,13 @@
         <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i>    </button>
     
     </div>
+    <div class="navigation">
+        <button class="nav-btn" (click)="prevPage()" [disabled]="skip == 0">Prev</button>
+            <button class="navigation-button"  *ngFor="let page of getPageRange()" 
+            (click)="goToPage(page)" 
+            [ngClass]="{'active-page': page === (skip / limit) + 1}">
+            {{ page }}
+            </button>
+            <button class="nav-btn" (click)="nextPage()">Next</button>
+    </div>
 </div>
